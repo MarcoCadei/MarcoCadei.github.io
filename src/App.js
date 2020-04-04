@@ -34,21 +34,22 @@ class App extends React.Component {
                 <ThemeProvider theme={theme}>
                   <Typography variant="h1">Marco Cadei</Typography>
                   <Typography variant="body2">
-                    Computer Science & Engineering Master's Student @ University of Brescia
+                    Software Engineer @ Bending Spoons  
                   </Typography>
                   <Typography variant="body2">
-                    Software Engineer @ Bending Spoons
-                    Masters' Student in Computer Engineering @ University of Brescia
+                    Computer Science & Engineering Master's Student @ University of Brescia
                   </Typography>
-                  <IconButton color="primary" size="medium" style={{color: "white"}} aria-label="Resume (CV)">
-                    <DescriptionIcon fontSize="large" />
-                  </IconButton>
-                  <IconButton color="primary" size="medium" style={{color: "white"}} aria-label="Resume (CV)">
+                  {/* <IconButton color="primary" size="medium" style={{color: "white"}} aria-label="Resume (CV)">
+                    <Link href="https://www.linkedin.com/in/marcocadei/" color="inherit" target="_blank">
+                      <DescriptionIcon fontSize="large" />
+                    </Link>
+                  </IconButton> */}
+                  <IconButton color="primary" size="medium" style={{color: "white"}} aria-label="Linkedin">
                     <Link href="https://www.linkedin.com/in/marcocadei/" color="inherit" target="_blank">
                       <LinkedInIcon fontSize="large" />
                     </Link>
                   </IconButton>
-                  <IconButton color="primary" size="medium" style={{color: "white"}} aria-label="Resume (CV)">
+                  <IconButton color="primary" size="medium" style={{color: "white"}} aria-label="Instagram">
                     <Link href="https://www.instagram.com/marco_cadei/" color="inherit" target="_blank">
                       <InstagramIcon fontSize="large" />
                     </Link>
