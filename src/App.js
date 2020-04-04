@@ -37,7 +37,8 @@ class App extends React.Component {
                     Computer Science & Engineering Master's Student @ University of Brescia
                   </Typography>
                   <Typography variant="body2">
-                    Software Engineer Intern @ Zucchetti
+                    Software Engineer @ Bending Spoons
+                    Masters' Student in Computer Engineering @ University of Brescia
                   </Typography>
                   <IconButton color="primary" size="medium" style={{color: "white"}} aria-label="Resume (CV)">
                     <DescriptionIcon fontSize="large" />
